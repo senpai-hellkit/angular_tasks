@@ -1,4 +1,4 @@
-<tr *ngFor="let data of someData.data; index as index" (click)="removeData(index)">
+<tr *ngFor="let data of someData.data; index as index">
   <th>{{data.id}}</th>
   <th>{{data.title}}</th>
   <th>{{data.author}}</th>
@@ -8,4 +8,5 @@
   <th>{{data.image}}</th>
   <th>{{data.published}}</th>
   <th>{{data.publisher}}</th>
+  <button (click)="removeData(index)">delete</button>
 </tr>
