@@ -1,0 +1,11 @@
+<tr *ngFor="let data of someData.data; index as index" (click)="removeData(index)">
+  <th>{{data.id}}</th>
+  <th>{{data.title}}</th>
+  <th>{{data.author}}</th>
+  <th>{{data.genre}}</th>
+  <th>{{data.description}}</th>
+  <th>{{data.isbn}}</th>
+  <th>{{data.image}}</th>
+  <th>{{data.published}}</th>
+  <th>{{data.publisher}}</th>
+</tr>

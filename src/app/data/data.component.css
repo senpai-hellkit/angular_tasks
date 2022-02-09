@@ -1,0 +1,6 @@
+th {
+  border: 1px solid black; /* Параметры рамки */
+  padding: 10px; /* Поля вокруг текста */
+  vertical-align: bottom; /* Выравнивание по нижнему краю */
+}
+
